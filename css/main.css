@@ -1,0 +1,71 @@
+#section1 {
+    background-image: url(bg.jpg);
+    background-repeat: ;
+}
+
+.head {
+    text-align: center;
+}
+
+.para {
+    font-family: georgia;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.para2 {
+    font-family: georgia;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.fa-3x {
+    color: #09F;
+    display: block !important;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.thumbnail {
+    height: 210px;
+}
+
+.skill {
+    border: 10px solid #dcdcdc;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.skill:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.vertpan img {
+    margin-top: 0px;
+    -webkit-transition: margin 1s ease;
+    -moz-transition: margin 1s ease;
+    -o-transition: margin 1s ease;
+    -ms-transition: margin 1s ease;
+    transition: margin 1s ease;
+}
+
+.vertpan img:hover {
+    margin-top: -200px;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+#section5 {}
